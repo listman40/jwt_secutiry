@@ -45,8 +45,8 @@
 - JwtAuthenticationEntryPoint : 인증되지 않은 사용자가 서비스를 호출한 경우 메시지를 처리합니다.
 - JwtAccessDeniedHandler : 인증된 사용자가 권한에 맞지 않은 서비스를 호출한 경우 메시지를 처리합니다.
 - dto 패키지
--- SecurityUser : 서버 내부에서 사용자 정보를 이용하는 경우 사용자 정보를 담고있는 클래스입니다.
+ SecurityUser : 서버 내부에서 사용자 정보를 이용하는 경우 사용자 정보를 담고있는 클래스입니다.
 - utils 패키지
--- JwtUtil : json웹토큰을 생성하고 검증하는 클래스입니다.
--- CookieUtil : json웹토큰이 생성되면 쿠키에 담겨서 브라우저에 전달되는데 쿠키를 생성하는 클래스입니다.
+1) JwtUtil : json웹토큰을 생성하고 검증하는 클래스입니다.
+2) CookieUtil : json웹토큰이 생성되면 쿠키에 담겨서 브라우저에 전달되는데 쿠키를 생성하는 클래스입니다.
 
