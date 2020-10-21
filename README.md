@@ -38,5 +38,5 @@
 </dependency>
 ```
 2. 인증 관련 클래스 설정
-- auth 패키지
 
+![ex_screenshot](./img/package.png)
